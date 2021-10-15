@@ -1,0 +1,28 @@
+{
+  "name": "mindful-server",
+  "scripts": {
+    "lint": "tslint --project tsconfig.json",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "engines": {
+    "node": "10"
+  },
+  "dependencies": {
+    "amply.js": "file:../amply-js"
+  },
+  "devDependencies": {},
+  "private": true,
+  "jest": {
+    "setupFiles": [
+      "jest-date-mock"
+    ]
+  },
+  "standard": {
+    "env": [
+      "node",
+      "mocha",
+      "jest"
+    ]
+  }
+}

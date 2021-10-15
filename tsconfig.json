@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitReturns": true,
+    "noUnusedLocals": false,
+    "resolveJsonModule": true,
+    "outDir": "lib",
+    "sourceMap": false,
+    "strict": true,
+    "target": "es2017",
+    "types": ["node", "jest"],
+    "typeRoots": ["./types", "./node_modules/@types"]
+  },
+  "compileOnSave": true,
+  "include": ["src", ".secrets", "scripts"],
+  "exclude": ["**/*.test.ts"]
+}
